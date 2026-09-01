@@ -10,7 +10,7 @@ screens.
 - Upper button: pins 10 (virtual ground) / 11 (read)
 - Lower button: pins 8 (virtual ground) / 9 (read)
 
-Buttons use a "virtual ground" trick: one pin is held `LOW` in software,
+Buttons (only used in 'with_pages') use a "virtual ground" trick: one pin is held `LOW` in software,
 the other reads `INPUT_PULLUP` and goes `LOW` when pressed.
 
 ## Screens
